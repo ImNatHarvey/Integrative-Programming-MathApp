@@ -28,6 +28,11 @@ namespace MathApp
             double rootResult = Math.Sqrt(perfectSquare);
             Console.WriteLine($"3. Square root of {perfectSquare} is: {rootResult}");
 
+            // 4. Math.Round()
+            double decimalNumber = 9.75;
+            double roundedResult = Math.Round(decimalNumber);
+            Console.WriteLine($"4. {decimalNumber} rounded is: {roundedResult}");
+
             Console.ReadLine();
         }
     }
