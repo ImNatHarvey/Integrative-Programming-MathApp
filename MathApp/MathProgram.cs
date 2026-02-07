@@ -17,6 +17,12 @@ namespace MathApp
             int absoluteResult = Math.Abs(negativeNumber);
             Console.WriteLine($"1. Absolute value of {negativeNumber} is: {absoluteResult}");
 
+            // 2. Math.Pow()
+            double baseNumber = 5;
+            double exponent = 2;
+            double powerResult = Math.Pow(baseNumber, exponent);
+            Console.WriteLine($"2. {baseNumber} raised to the power of {exponent} is: {powerResult}");
+
             Console.ReadLine();
         }
     }
