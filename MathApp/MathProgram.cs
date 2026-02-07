@@ -23,6 +23,11 @@ namespace MathApp
             double powerResult = Math.Pow(baseNumber, exponent);
             Console.WriteLine($"2. {baseNumber} raised to the power of {exponent} is: {powerResult}");
 
+            // 3. Math.Sqrt()
+            double perfectSquare = 64;
+            double rootResult = Math.Sqrt(perfectSquare);
+            Console.WriteLine($"3. Square root of {perfectSquare} is: {rootResult}");
+
             Console.ReadLine();
         }
     }
