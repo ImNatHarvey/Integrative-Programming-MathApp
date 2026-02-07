@@ -33,6 +33,11 @@ namespace MathApp
             double roundedResult = Math.Round(decimalNumber);
             Console.WriteLine($"4. {decimalNumber} rounded is: {roundedResult}");
 
+            // 5. Math.Floor()
+            double preciseNumber = 5.99;
+            double floorResult = Math.Floor(preciseNumber);
+            Console.WriteLine($"5. Floor of {preciseNumber} is: {floorResult}");
+
             Console.ReadLine();
         }
     }
